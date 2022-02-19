@@ -18,9 +18,9 @@ function Showcase() {
 								esse explicabo soluta similique inventore, nam nulla debitis et
 								eveniet ex.
 							</p>
-							<a href="/product">
+							<Link to="/product">
 								<button className="btn btn-secondary">Get It Now</button>
-							</a>
+							</Link>
 						</div>
 						<div className="showcase-void"></div>
 					</div>
