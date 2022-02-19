@@ -1,7 +1,7 @@
 import React from "react";
 import { useContext } from "react";
 import Context from "../../context/Context";
-// import Button from "./shared/Button";
+import { Link } from "react-router-dom";
 
 function Showcase() {
 	const { hideInfo } = useContext(Context);
