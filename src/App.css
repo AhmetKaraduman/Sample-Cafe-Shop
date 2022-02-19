@@ -978,6 +978,18 @@ button:active {
 	padding: 10px 0;
 }
 
+@media (max-width: 400px) {
+	.showcase-container {
+		height: 150vh;
+	}
+	.bgcontainer {
+		height: 100%;
+	}
+	.showcase .showcase-info h2 {
+		padding-top: 300px !important;
+	}
+}
+
 @media (max-width: 850px) {
 	.product-list {
 		grid-template-columns: 1fr 1fr;
@@ -1059,6 +1071,10 @@ button:active {
 		padding-top: 300px;
 	}
 
+	.coffee-info .container {
+		padding: 300px 20px 150px 20px;
+	}
+
 	.aboutdashline {
 		width: 80px;
 	}
@@ -1069,5 +1085,20 @@ button:active {
 
 	.showcase .showcase-info h2 {
 		padding-top: 160px;
+	}
+}
+
+@media (max-height: 500px) {
+	.showcase-container {
+		height: 200vh;
+	}
+	.bgcontainer {
+		height: 100%;
+	}
+	.showcase .showcase-info h2 {
+		padding-top: 200px;
+	}
+	.coffee-info .container {
+		padding: 200px 30px 100px 30px;
 	}
 }

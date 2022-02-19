@@ -2,7 +2,7 @@ import React from "react";
 import SelectedItemCard from "./SelectedItemCard";
 import { motion, AnimatePresence } from "framer-motion";
 import Context from "../context/Context";
-import { useContext } from "react/cjs/react.development";
+import { useContext } from "react";
 
 function SelectedItem() {
 	const { selectedItem } = useContext(Context);

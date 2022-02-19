@@ -1,11 +1,9 @@
 import { FaEnvelope, FaLocationArrow, FaPhone } from "react-icons/fa";
 import Searchbar from "./Searchbar";
 import ShoppingCart from "./ShoppingCart";
-import Context from "../context/Context";
 import { Link } from "react-router-dom";
 import Logo from "../components/shared/Logo";
 import ListOfSelectedItems from "./ListOfSelectedItems";
-import { useContext } from "react/cjs/react.development";
 
 function Header(props) {
 	return (
