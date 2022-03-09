@@ -32,7 +32,6 @@ function Card(props) {
 							/\s/g,
 							""
 						)}`}
-						// to="/product"
 						name={`/${props.name}/${props.type}`}
 					>
 						<FaEye />

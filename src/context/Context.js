@@ -121,22 +121,6 @@ export const ContextProvider = ({ children }) => {
 		setinfoPath(localStorage.getItem("path"));
 	}, []);
 
-	// useEffect(() => {
-	// 	if (selectedItem.length === 0) {
-	// 		const totalPrice = document.querySelector(".total-price");
-	// 		const checkoutNow = document.querySelector(".checkout-now");
-
-	// 		totalPrice.classList.add("hide");
-	// 		checkoutNow.classList.add("hide");
-	// 	} else {
-	// 		const totalPrice = document.querySelector(".total-price");
-	// 		const checkoutNow = document.querySelector(".checkout-now");
-
-	// 		totalPrice.classList.remove("hide");
-	// 		checkoutNow.classList.remove("hide");
-	// 	}
-	// }, [selectedItem]);
-
 	return (
 		<Context.Provider
 			value={{
